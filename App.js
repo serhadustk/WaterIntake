@@ -3,12 +3,16 @@
 import * as React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import RootStacks from './src/navigation/rootStacks';
+import {Provider} from 'react-redux';
+import store from './src/redux';
 
 function App() {
   return (
-    <NavigationContainer>
-      <RootStacks />
-    </NavigationContainer>
+    <Provider store={store}>
+      <NavigationContainer>
+        <RootStacks />
+      </NavigationContainer>
+    </Provider>
   );
 }
 
