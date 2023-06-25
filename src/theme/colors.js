@@ -1,5 +1,6 @@
 export const Colors = {
-  primary: 'green',
+  primary: '#42c5fd',
   white: '#fff',
-  black: '#0000',
+  black: '#000',
+  shadowColor: '#ddd',
 };

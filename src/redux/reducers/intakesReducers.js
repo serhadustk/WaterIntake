@@ -28,7 +28,7 @@ const intakesReducers = (state = initialState, action) => {
       return {
         ...state,
         pending: false,
-        INTAKESler: [],
+        intakes: [],
       };
     default:
       return state;

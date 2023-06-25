@@ -1,2 +1,2 @@
-export const INTAKES = 'Intakes';
+export const INTAKES = 'Water Tracker';
 export const GOAL = 'Goal';

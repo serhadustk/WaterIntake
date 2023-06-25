@@ -16,7 +16,6 @@ export const getIntakes = () => {
         type: FETCH_INTAKES,
         payload: data,
       });
-      console.log('data selim', data);
     } catch (error) {
       dispatch({type: INTAKES_REJECT});
     }
